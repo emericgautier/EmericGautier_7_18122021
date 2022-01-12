@@ -37,8 +37,8 @@ exports.getAllPosts = (async (req, res, next) => {
     try {
         const posts = await Post.findAll({  // Retrieve all posts
             order: [
-                ['id', 'DESC']
-            ]
+                ['createdAt', 'DESC']
+            ],
         })
 
         res.status(200).json(posts)
@@ -65,7 +65,7 @@ exports.getAllPostsUser = (async (req, res, next) => {
         const posts = await Post.findAll({ // retrieve all user posts
             where: { user_id: req.query.id },
             order: [
-                ['id', 'DESC']
+                ['createdAt', 'DESC']
             ]
         })
         res.status(200).json(posts)

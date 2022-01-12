@@ -37,7 +37,7 @@ exports.getCommentsFromPost = (async (req, res, next) => {
         const comments = await Comment.findAll({  // Retrieve all comments for a post
             where: { post_id: req.query.id }, 
             order: [
-                ['id', 'DESC']
+                ['createdAt', 'DESC']
             ]
         })
         res.status(200).json(comments)
@@ -52,7 +52,7 @@ exports.getCommentsFromUser = (async (req, res, next) => {
         const comments = await Comment.findAll({ // Retrieve all comments from a user
             where: { user_id: req.query.id },
             order: [
-                ['id', 'DESC']
+                ['createdAt', 'DESC']
             ]
         })
         res.status(200).json(comments)

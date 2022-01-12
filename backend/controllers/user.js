@@ -4,7 +4,7 @@ const bcrypt = require('bcrypt') // hash passwords
 const jwt = require('jsonwebtoken') // authentication token
 const fs = require('fs'); // file system
 
-const User = require('../models/user'); // // schéma de User
+const User = require('../models/user'); // schéma de User
 
 // Email & password rules
 const EMAIL_REGEX = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;

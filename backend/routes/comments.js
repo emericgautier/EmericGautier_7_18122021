@@ -1,5 +1,3 @@
-/* ROUTES COMMENTS || Logique de routing pour comments */
-
 const express = require('express');
 
 const router = express.Router();
