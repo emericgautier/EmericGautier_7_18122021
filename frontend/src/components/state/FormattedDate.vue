@@ -63,7 +63,7 @@
                     month = ' décembre'
                     break
             }
-            return this.formattedDate = 'le ' + splitedDate.day + month + ' à ' + splitedDate.hours + ':' + splitedDate.minutes 
+            return this.formattedDate = splitedDate.day + month
         }
     }
 
