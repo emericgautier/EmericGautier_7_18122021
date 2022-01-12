@@ -1,7 +1,7 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 
 import Landingpage from '@/views/Landingpage.vue'
-import Groupomania from '@/views/Groupomania.vue'
+import Groupomania from '@/views/Group.vue'
 
 import Home from '@/components/home/Home.vue'
 import Profile from '@/components/profile/Profile.vue'
