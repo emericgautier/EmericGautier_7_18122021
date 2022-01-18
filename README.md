@@ -19,10 +19,7 @@ Projet 7 : création d'un réseau social d'entreprise.
   
 - Dans le fichier .env, remplacer [DB_PASSWORD] par votre mot de passe root mysql.  
 
-- Pour importer le contenu du fichier database/db.sql , entrez la commande suivante, 
-  en remplaçant "user" et "password" par les données du fichier .env :
-
-  #### `mysql -u user -p password groupomania < database/db.sql`
+- Importer le fichier database/db.sql avec phpMyAdmin ou la console
 
 ## Lancement de l'application :
 
@@ -38,4 +35,4 @@ Projet 7 : création d'un réseau social d'entreprise.
   - installez les dépendances avec la commande suivante :
     #### `npm install`
   - lancez l'application avec la commande suivante :
-    #### `yarn serve` (http://localhost:8080/)
+    #### `npm run serve` (http://localhost:8080/)
