@@ -68,7 +68,7 @@
 <style scoped>
 
     #profile-user {
-        background-color: #212529;
+        background-color: #0F0F10;
     }
 
     #banner {
@@ -105,7 +105,7 @@
         position: absolute;
         bottom: 0.5rem;
         left: 1rem;
-        border: 4px solid #212529;
+        border: 4px solid #0F0F10;
     }
 
     #user-desc {

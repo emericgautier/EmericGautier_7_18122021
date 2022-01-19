@@ -235,7 +235,7 @@
   max-width: 728px;
   margin: 0px auto;
   padding: 20px 30px;
-  background-color: #212529;
+  background-color: #0F0F10;
   border: 2px solid white;
   border-radius: 2px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);

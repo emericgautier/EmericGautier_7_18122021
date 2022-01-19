@@ -18,7 +18,7 @@
     }
 
     article:hover {
-        background-color: #212529;
+        background-color: #0F0F10;
     }
 
     span {
