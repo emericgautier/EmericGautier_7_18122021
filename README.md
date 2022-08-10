@@ -1,11 +1,22 @@
-# Groupomania
-Projet 7 : création d'un réseau social d'entreprise.
+# Projet 7 - Groupomania
+_Projet de la formation développeur web - OpenClassrooms._
 
-## Stack technique :
+### 🎯 Mission
+  - Création d'un réseau social d'entreprise.
+
+![logo_groupomania](https://user-images.githubusercontent.com/78208136/183892148-dcd88012-0741-4570-8255-df9be7859689.png)
+
+## 🛠 Stack technique :
 
 - Base de données : MySql.
 - Serveur : NodeJs. Express.
 - Framework Javascript : VueJS
+
+### ⚡️ Evaluations
+1. Authentifier un utilisateur et maintenir sa session
+2. Personnaliser le contenu envoyé à un client web
+3. Gérer un stockage de données à l'aide de SQL
+4. Implémenter un stockage de données sécurisé en utilisant SQL
 
 ## Prérequis :
 
